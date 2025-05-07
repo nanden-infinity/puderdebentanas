@@ -1,0 +1,85 @@
+
+
+@media(max-width: 805px) {
+    .container {
+        width: 100%;
+        padding: 0 40px;
+        display: flex;
+        align-items: center;
+    }
+   
+    .banner {
+        padding:  0;
+        padding-bottom: 2rem !important;
+        & .text-content{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          transform: translateY(-30px);
+         & .text--azul{
+          color: var(--blue-sky);
+          text-align: left;
+          margin: 0 auto;
+         }
+         & .link--about-project{
+          background: var(--gradient);
+          padding: 1rem 2rem;
+          border-radius: var(--border-raius-4);
+          font-weight: bold;
+          color: #222;
+          text-decoration: none;
+          transition: .3s;
+          margin-top: 10px;
+          &:hover{
+            color: #fff;
+            transform: translateY(5px);
+            box-shadow: 0 0 10px rgba(0,0,0,.2);
+         }
+        }
+        & .bentana-text{
+          font-weight: bold;
+          font-size: 2.5rem;
+        }
+       & .titulo {
+        
+            font-size: 6rem;
+
+            &::after{
+              transform: translateX(-44%);
+            }
+          }
+        }
+
+       
+    }
+    .container--parceiros{
+      text-align: center;
+      font-size: 2rem;
+      padding: 4.4rem 2rem;
+    }
+.sobre--projecto{
+background: linear-gradient(to right, #E39E49, #FDBC6C);
+
+   & .container--projecto{
+      padding: 4.4rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+  }
+}
+/* @media(max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+    .header, .footer {
+        font-size: 14px;
+    }
+    .nav a {
+        font-size: 14px;
+    }
+} */
