@@ -61,7 +61,6 @@
     }
 .sobre--projecto{
 background: linear-gradient(to right, #E39E49, #FDBC6C);
-
    & .container--projecto{
       padding: 4.4rem 2rem;
       display: flex;
