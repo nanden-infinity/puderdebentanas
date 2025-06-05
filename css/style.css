@@ -1,4 +1,7 @@
 @import url(greal.css);
 @import url(header/header.css);
-@import url(banner/banner.css);
+@import url(sections/banner.css);
+@import url(sections/parceiros.css);
+@import url(sections/sobre-projecto.css);
+@import url(sections/section-visao-geral.css);
 @import url(mediaQuery.css);

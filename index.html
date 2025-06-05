@@ -1,63 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <title>Puder di Bentanas</title>
 </head>
+
 <body>
   <div class="container-body">
-    <header aria-label="header" class="shadow">
-      <div class="container--header" aria-expanded="true">
-        <div class="logo"><img src="imagens/logosvg.svg" alt=""></div>
-        <nav data-menu="meu">
-          <ul class="list-menu">
-      
-            <li><a href="sobre-produtos.html">Produtos</a></li>
-            <li><a href="encontre-produtos.html">Quem somos</a></li>
-            <li><a href="indedx.html">Faq</a></li>
-            <li><a href="indedx.html">Fale Connosco</a></li>
-          </ul>
-        </nav>
-
-        <button class="find">Projecto</button>
-      </div>
-    </header>
+    <section class="header-section ">
 
 
-    <!-- SECTION BANNER -->
-     <section class="banner">
-      <div class="container">
-        <div class="text-content ">
-          <p class="bentana-text">Puder di Bentana</p>
-          <h1 class="titulo">BENTANA</h1>
-          <span class="text--azul">sem azul não há verde</span>
-          <a href="#" class="link--about-project">Sobre Projecto</a>
+      <header aria-label="header" class="">
+        <div class="container--header" aria-expanded="true">
+          <div class="logo"><img src="imagens/logo.svg" alt=""></div>
+          <nav data-menu="meu" class="nav-menu">
+            <ul class="list-menu">
+
+              <li><a href="#">Produtos</a></li>
+              <li><a href="#">Quem somos</a></li>
+              <li><a href="#">Faq</a></li>
+              <li><a href="#">Fale Connosco</a></li>
+            </ul>
+            <div class="btn--project"> <a class="find-projecto">Projecto</a></div>
+          </nav>
+
+
         </div>
-        <figure class="figure--banner">
-          <img src="imagens/banner.png" alt="">
+      </header>
+
+
+      <!-- SECTION BANNER -->
+      <section class="banner">
+        <div class="container">
+          <div class="wrapper">
+            <div class="slider">
+              <figure class="container--banner">
+                <img class="img-embaix" src="/imagens/img-embaix.png" alt="">
+                <span class="text--sem-azul">Sem Azul não há Verde</span>
+                <div class="content-text">
+                  <h1 class="text-titulo--banner">
+                    PUDER DI BENTANAS PROJECTO INOVADOR NA GUINÉ-BISSAU
+
+                  </h1>
+                  <p class="text--name">Embaixadora: <span class="text-person">Nilsa Monteiro</span></p>
+                </div>
+              </figure>
+            </div>
+            <div class="dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="parceiros">
+        <div class="container--parceiros">
+          <div class="parceiros--title">
+            <h2>Parceiros</h2>
+          </div>
+          <div class="parceiros">
+
+
+            <div class="nanque">Mané Nanque</div>
+            <div class="nanque">Nanden-Infinity</div>
+            <div class="nanque">AIRBNB</div>
+            <div class="nanque">STARTBUCKS</div>
+            <div class="nanque">COFFE NERO</div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <!-- SOBRE O PROJECTO -->
+    <section class="sobre--projecto">
+      <div class="container-sobre--projecto">
+        <h1 class="titulo-sobre"><span class="text-titulo">SOBRE PROJECTO</span></h1>
+        <div class="container--tab">
+
+          <div class="container--tab-btn">
+            <button class="btn--tab active" data-tab="tab1">Quem somos</button>
+            <button class="btn--tab" data-tab="tab2">A nossa missão</button>
+            <button class="btn--tab" data-tab="tab3">Propósito</button>
+          </div>
+          <!-- Container--tab-global -->
+           <div class="container--tab-global">
+          <article class="info-quem-somos  tab-content active" data-content="tab1">
+            <h2>Quem somos</h2>
+            <p>Somos uma organização dedicada à preservação do meio ambiente e à promoção do desenvolvimento sustentável
+              na Guiné-Bissau.</p>
+          </article>
+          <article class="info-missao tab-content active" data-content="tab2">
+            <h2>A nossa missão</h2>
+            <p>Somos uma organização dedicada à preservação do meio ambiente e à promoção do desenvolvimento sustentável
+              na Guiné-Bissau.</p>
+          </article>
+          <article class="info-proposito tab-content active" data-content="tab1">
+            <h2>Propósito</h2>
+            <p>Somos uma organização dedicada à preservação do meio ambiente e à promoção do desenvolvimento sustentável
+              na Guiné-Bissau.</p>
+          </article>
+          </div> 
+          <!-- End Container-tab-Global -->
+        </div>
+    </section>
+    <!-- SECTION VISÃO GERAL  START -->
+    <section class="visao-geral" id="visao-geral">
+      <div class="container-visao-geral">
+       <div class="content-visao">
+        <div class="text--visao-content">
+          <p class="text-puder">Puder</p>
+          <h1 class="text-titulo-visao">BENTANAS</h1>
+          <p class="text-azul">sem azul não há verde</p>
+          <a href="#" class="link-project">Projecto</a>
+        </div>
+        <figure class="figure--circle">
+          <div class="circle"></div>
+          <img src="/imagens/menina.png" class="img-person" alt="">
         </figure>
+       </div>
       </div>
-     </section>
+    </section>
+    <!-- SECTIOIN VISÃO  GERAL END -->
+    <!-- SECTION CARD -->
+    <section class="card">
+      <div class="container--card">
 
-     <section class="parceiros">
-      <div class="container--parceiros"><h1>Os Nossos Parceiros</h1></div>
-     </section>
+      </div>
+    </section>
 
 
-
-     <section class="sobre--projecto">
-      <div class="container--projecto"><h1>Os Nossos Parceiros</h1></div>
-     </section>
   </div>
 
 
-  <script src="js/script.js"></script>
+  <script src=" js/script.js">
+            </script>
 </body>
+
 </html>

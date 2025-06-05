@@ -52,7 +52,7 @@
           }
         }
 
-       
+  
     }
     .container--parceiros{
       text-align: center;
@@ -60,7 +60,7 @@
       padding: 4.4rem 2rem;
     }
 .sobre--projecto{
-background: linear-gradient(to right, #E39E49, #FDBC6C);
+
    & .container--projecto{
       padding: 4.4rem 2rem;
       display: flex;
@@ -70,6 +70,8 @@ background: linear-gradient(to right, #E39E49, #FDBC6C);
       gap: 2rem;
     }
   }
+
+
 }
 /* @media(max-width: 480px) {
     .container {

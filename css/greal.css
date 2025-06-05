@@ -7,11 +7,16 @@
   color: #222;
 }
 :root{
---blue-sky: #00A1E4;
+--blue-primary: #00A1E4;
 --amber: #FEAD4A;
---gradient: linear-gradient(to right, #fead4a, #fa872a);
+--gradient-default: linear-gradient(to right, #07AAE5, #045E7F);
+--green-primary: #00B97F;
 --font-title: 'Poppins', sans-serif;
---border-raius-4:4px;
+--font-text: 'Inter', sans-serif;
+--border-radius-4: 4px;
+--border-radius-8: 8px;
+--border-radius-16: 16px; 
+--btn-hover: linear-gradient(to right, #FEAD4A,rgb(243, 104, 11));
 --linearGB: linear-gradient(-95deg, #FEAD4A, #E0630F);
 }
 html{
@@ -20,12 +25,15 @@ html{
 
 body{
   font-family:var(--font-title);
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 
  
 }
 
-
+img{
+  display: block;  
+  max-width: 100%;
+}
 
 
 
