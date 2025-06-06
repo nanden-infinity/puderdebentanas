@@ -1,0 +1,10 @@
+
+  .section--text-v-geral{
+ padding: 2.6rem 4.4rem;
+    & .container--text-v-geral {
+      max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+     }
+  }
+
