@@ -5,3 +5,5 @@
 @import url(sections/sobre-projecto.css);
 @import url(sections/section-visao-geral.css);
 @import url(mediaQuery.css);
+@import url(sections/section-card.css);
+@import url(animation.css);

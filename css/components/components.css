@@ -1,0 +1,25 @@
+
+.list-location{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(221, 204, 170, 0.034);
+  box-shadow: 0 4px 2px rgb(115, 79, 3);
+  color: rgb(245, 247, 246);
+  font-weight: bold;
+  padding: 1rem 2rem;
+}
+.compra--aqui{
+  padding:1.4rem 2rem;
+  background: linear-gradient(70deg, rgb(15, 9, 0), rgb(0, 14, 3));
+  align-self: self-start;
+  color: #fff;
+  font-weight: 500;
+  transition: .5s;
+  z-index: 100;
+  &:hover{
+    padding-inline: 4rem;
+      background: linear-gradient(130deg, rgb(47, 24, 2) 9%, rgb(0, 14, 3) 90%);
+  }
+  border-radius: var(--border-radius-4);
+}
