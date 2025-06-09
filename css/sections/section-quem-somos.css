@@ -1,0 +1,73 @@
+.section--quem-somos {
+  margin-top: 12rem;
+  box-sizing: border-box;
+  padding: 4rem 0;
+  background: var(--blue-primary);
+
+  & .container--quem-somos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12rem 4.4rem;
+    padding-top: 0;
+    width: 100%;
+ & .content-quem-somos{
+display: grid;
+font-size: 2rem;
+gap: 2rem;
+  width: 100%;
+
+  margin: 0 auto;
+  margin-top: 4rem;
+  & .card-obj{
+    align-items: center;
+background: rgba(240, 255, 255, 0);
+& .bg-info{
+  padding: 1rem 2rem;
+  background: #046595;
+  color: #fff;
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  animation: width-slow 1s ease-in-out forwards;
+}
+& p{
+      border: 1px solid #035e8b;
+      background: #fff;
+       max-width: 100%;
+  width: 100%;
+    display: inline-block;
+      padding: 1rem 2rem;
+      border-left: 8px solid var(--amber);
+        animation: width-left 4s ease-in-out forwards;
+    }
+  }
+ }
+    & .titulo-quem-somos {
+      position: relative;
+      display: flex;
+      font-size: 8.4rem;
+      align-items: center;
+      justify-content: center;
+      padding: 0 2rem;
+      margin: 0 auto;
+      color: #fff;
+
+      &::before {
+        position: absolute;
+        display: inline-block;
+        content: "";
+        width: 15px;
+        height: 100%;
+        background: var(--amber);
+        top: 0;
+        left: 220px;
+        animation: row-q-somos .5s forwards;
+      }
+
+
+    }
+
+
+  }
+
+}

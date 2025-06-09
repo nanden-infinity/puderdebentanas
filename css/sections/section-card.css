@@ -7,6 +7,7 @@
     width: 100%;
     margin: 0 auto;
     & .card {
+     
       display: flex;
       gap: 4rem;
       padding: 4.8rem 4.4rem;
@@ -26,7 +27,7 @@
           z-index: 1;
           transform: scale(1.6);
           transform: scale(1.6);
-          filter: drop-shadow(0px 0px 130px rgb(244, 168, 4));
+          filter: drop-shadow(0px 0px 5px rgb(252, 173, 3));
         }
       }
       & .card--text{

@@ -1,10 +1,104 @@
+.section--text-v-geral {
+  padding: 2.6rem 4.4rem;
 
-  .section--text-v-geral{
- padding: 2.6rem 4.4rem;
-    & .container--text-v-geral {
-      max-width: 1200px;
+  & .container--text-v-geral {
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-     }
+  }
+}
+
+
+.text--gb-visao-geral {
+  position: relative;
+
+  & .text-sub-abst {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(-200px, 20px);
+    color: var(--amber);
+    font-weight: 500;
+    font-weight: bold;
+  }
+}
+
+.titulo-xl {
+  display: block;
+  margin: 0 auto;
+  max-width: 790px !important;
+  font-size: 128px;
+
+  & .text--visao {
+    display: inline-flex;
+    text-indent: -50px;
+  }
+}
+
+
+.container--galleria-imags {
+  margin-top: 4rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  background: rgba(255, 255, 255, 0.268);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius-4);
+
+  & .text--gallery {
+    overflow: hidden;
+    background: rgba(249, 249, 249, 0);
+    padding: 4rem 4rem;
+
+    & .puder-d-bentana {
+      font-size: 6.4rem;
+      line-height: 1.1;
+      font-weight: bold;
+
+    }
+
+    & .box-row {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      width: 24px;
+      height: 400px;
+      margin-left: 10px;
+      background: #111;
+
+      & .circlo-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-13px);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: var(--amber);
+        box-shadow: 0 0 0 12px #fff;
+        margin: 4px auto;
+        border: 8px solid #111;
+        animation: circle-anime .5s forwards;
+      }
+    }
   }
 
+  & .wd--03 {
+    background: var(--amber);
+    & .wd--03 img {
+      object-fit: cover;
+      object-position: -4px 4px;
+    }
+  }
+
+
+
+  .text-paragr {
+    font-size: 2rem;
+    margin-top: 80px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+}

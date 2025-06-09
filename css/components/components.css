@@ -23,3 +23,105 @@
   }
   border-radius: var(--border-radius-4);
 }
+
+
+/*#COMPONENTS */
+
+.titulo-xl{
+  /* POSITION IN DIFFERENT WAY ON MEDIA QUERY */
+  position: relative;
+  max-width: 18ch;
+  width: 100%;
+
+  /* DEBUG IMPORTANT */
+  &::after{
+    position: absolute;
+    top: 90px;
+    left: 72%;
+    transform: translate(10%, -14px) ;
+    content: "";
+    display: block;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--amber);
+    box-shadow: 0 0 0 4px #222,
+    0 4px 6px rgba(0, 0, 0, 0.1);
+    background: var(--amber);
+  }
+  font-size: 8.4rem;
+  line-height: 1.1;
+  color: #888;
+}
+
+.text--visao
+.sobre-projeto{
+  color: #222;
+}
+
+.sub--tiutlo-left {
+  color: var(--amber);
+  font-family: var(--font-titulo);
+
+  font-weight: bold;
+}
+
+/* COMPONENTS GRID AND 2GRID */
+
+.grid{
+display: grid;
+padding: 2rem;
+}
+ .col--02{
+grid-template-columns: 1fr 1fr;
+gap: 1.5rem;
+ }
+.wd-grid {
+  display: flex;
+  height: 100%;
+overflow: hidden;
+border-radius: 9px;
+  &  img {
+    display: block;
+    object-fit: cover;
+    border-radius: var(--border-radius-4);
+    width: 100%;
+    &:hover {
+      transform: scale(1.5);
+      transition: transform  .5s ease-in-out;
+      filter: brightness(0.8);
+      cursor: pointer;
+     
+    }
+  }
+}
+ .wd--01{
+  grid-column: 1/ -1;
+ }
+
+ /* TEXT CIRCLE  */
+.relative{
+  position: relative;
+}
+ .text-circle{
+  display: flex;
+  position: absolute;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.text-circle--01{
+  right: -240px;
+}.text-circle--02{
+   right: -140px;
+
+ }.text-circle--03{
+right: -190px;
+}
+
+/* DEPENDENCIES COMPONENTS */
+
+.flex{
+  display: flex;
+  align-items: center;
+}

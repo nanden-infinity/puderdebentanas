@@ -3,7 +3,8 @@
     transform: translateY(20px);
     opacity: 1;
     margin-left: 30px;
-  }67%{
+  }
+  67% {
     transform: translateY(10px);
     opacity: 5;
     margin-left: 15px;
@@ -23,3 +24,76 @@
     opacity: 1;
   }
 }
+
+@keyframes circle-anime {
+  from {
+    transform: translate3d(-500px, 0, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(-14px, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes text-slow {
+  0% {
+    transform: translate3d(0, 40px, 0) scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slow-person {
+  0% {
+    transform: translate3d(300px, 40px, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes row-q-somos {
+  0% {
+    width: 0;
+    left: 0;
+    opacity: 0;
+  }
+  70% {
+    width: 5px;
+    left: 260px;
+    opacity: 0.7;
+  }
+  100% {
+    width: 20px;
+    op1acity: 1;
+    left: 220px;
+  }
+}
+
+@keyframes width-slow{
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 100%
+    opacity: 1;
+  }
+}
+@keyframes width-left{
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+ 

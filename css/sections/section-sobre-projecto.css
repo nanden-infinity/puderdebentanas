@@ -157,13 +157,5 @@
   gap: 4rem;
 }
 
-@keyframes text-slow {
-  0% {
-    transform: translate3d(0, 40px, 0) scale(0.1);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(0, 0, 0) scale(1);
-    opacity: 1;
-  }
-}
+
+
