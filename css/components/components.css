@@ -77,6 +77,10 @@ padding: 2rem;
 grid-template-columns: 1fr 1fr;
 gap: 1.5rem;
  }
+ .col--small{
+ grid-template-columns: 350px 1fr;
+gap: 1rem;
+ }
 .wd-grid {
   display: flex;
   height: 100%;
@@ -125,3 +129,6 @@ right: -190px;
   display: flex;
   align-items: center;
 }
+
+/* PROBLEMAS E SOLUÇOES */
+

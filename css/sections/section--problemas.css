@@ -1,0 +1,187 @@
+.probleas--solucoes {
+  padding: 2.6rem 4.4rem;
+  padding-bottom: 0;
+
+}
+
+.container--problemas--solucoes {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+
+  & .problemas-content {
+      padding-bottom: 4rem;
+    & .icons-problem,
+    .icons-solution {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80px;
+      padding: 1rem;
+      background-color: rgba(255, 255, 255, 0.907);
+  
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 0 4px inset var(--amber);
+      border-radius: 50%;
+      width: 80px;
+
+      & img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    width: 100%;
+
+    /* SOLUCOES PROBLEMS */
+    & .problemas {
+         background-color: #d1efed1f;
+      padding: 4.4rem 4rem;
+      border-radius: var(--border-radius-4);
+      padding-block-end: 8rem;
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+      transition: .5s;
+
+      &:hover {
+     box-shadow: 0 8px 12px transparent,
+        0 0 0 2px #1212 inset;
+        cursor: pointer;
+        transform: translateY(0, 5px, 0);
+        margin-bottom: 2rem;
+      }
+
+      & .list-problems {
+        display: flex;
+        flex-direction: column;
+        gap: .67rem;
+
+        & li {
+          display: flex;
+          align-items: center;
+          position: relative;
+           padding-left: 4rem;
+          margin-block: .5rem;
+
+          &::before {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+
+            transform: translateY(-50%);
+            display: inline-block;
+            content: "";
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            content: "";
+            display: flex;
+
+            justify-content: center;
+            border-radius: 50%;
+            ;
+            box-shadow: 0 0 0 4px rgb(255, 61, 27);
+            background-image: url("../../imagens/icons/icons8-filled-circle-32.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 1px 1px;
+
+
+          }
+        }
+      }
+
+      & .titulo-problems {
+        font-size: 4rem;
+        color: rgb(2, 20, 15);
+        font-family: var(--font-title);
+      }
+    }
+
+    /* SOLUCOES SECTION */
+    & .solucoes {
+      background-color: #d1efed1f;
+      padding: 4.4rem 4rem;
+      border-radius: var(--border-radius-4);
+      padding-block-end: 8rem;
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+      transition: .3s;
+
+      &:hover {
+        box-shadow: 0 8px 12px transparent,
+        0 0 0 2px #1212 inset;
+        cursor: pointer;
+        transform: translateY(-15px);
+             
+      }
+
+      & .list-solucoes {
+        display: flex;
+        flex-direction: column;
+        gap: .67rem;
+
+        & li {
+          display: flex;
+          align-items: center;
+          position: relative;
+          padding-left: 4rem;
+          margin-block: .5rem;
+
+          &::before {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+
+            transform: translateY(-50%);
+            display: inline-block;
+            content: "";
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            content: "";
+            display: flex;
+
+            justify-content: center;
+            border-radius: 50%;
+            ;
+            box-shadow: 0 0 0 4px rgb(4, 175, 84);
+            background-image: url("../../imagens/icons/icons8-check-48.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 0px -0.3px;
+
+
+          }
+        }
+      }
+
+      & .titulo-solucoes {
+        font-size: 4rem;
+        color: rgb(2, 20, 15);
+        font-family: var(--font-title);
+      }
+    }
+
+    & a.btn-go-up {
+      grid-column: 1/-1;
+   display: flex;
+   align-items: center;
+  gap: .5rem;
+      & img{
+        height: 32px;
+        width: 32px;
+        object-fit: cover;
+        display: block;
+      }
+
+
+      padding: 1rem;
+  
+    
+  
+      margin: 0 auto;
+      margin-top: 1.2rem;
+  
+    }
+  }
+}
