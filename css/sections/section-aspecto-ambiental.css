@@ -1,0 +1,57 @@
+.sutentabilidades {
+  margin-block: 4rem;
+  padding: 2.6rem 4.4rem;
+}
+
+.container--sustentabilidades {
+  background-color: var(--blue-primary);
+  border-radius: var(--border-radius-4);
+  max-width: 1200px;
+  margin: 0 auto;
+padding:2rem 4rem;
+
+  /* first--level start from here */
+  & .container--level--01 {
+    padding-block: 2rem;
+    & .text--aspecto--ambiental {
+      text-align: center;
+      font-size: 2rem;
+      color: azure;
+      font-weight: 500;
+    }
+    .subtitle--ambiental {
+      font-size: 4.6rem;
+      text-align: center;
+    }
+  }
+}
+
+.content--objs{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.contents--items{
+  gap: .5rem;
+  grid-template-columns: repeat(4,1fr);
+  & div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+    &:hover img{
+      transform: scale(1.2);
+    }
+    & img{
+      transition: .5s;
+      display: block;
+      max-width: 100%;
+      transform: scale(.8);
+      object-fit: cover;
+
+      
+    }
+  }
+}
