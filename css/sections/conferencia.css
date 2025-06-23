@@ -1,0 +1,10 @@
+.conferencia {
+  margin-block: 4rem;
+
+  & > div {
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 2rem 4rem;
+  }
+}
